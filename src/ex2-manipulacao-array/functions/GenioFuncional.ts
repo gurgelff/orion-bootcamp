@@ -1,5 +1,5 @@
 import { GenioProp, InfoGenio, InfoGenios } from "../types/Genio";
-import { mostrar_mensagem_erro_nao_encontrado } from "./GenioUtils";
+import { mostrar_mensagem_erro_nao_encontrado } from "./GenioUtils.js";
 
 /**
  * Retorna uma propriedade de um gênio dado seu id

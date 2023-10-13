@@ -7,7 +7,7 @@ import {
   change_name_imperative,
   change_bio_imperative,
   change_id_imperative,
-} from "./functions/GenioImperativo";
+} from "./functions/GenioImperativo.js";
 
 import {
   get_bio_functional,
@@ -16,7 +16,7 @@ import {
   change_bio_functional,
   change_id_functional,
   change_name_functional,
-} from "./functions/GenioFuncional";
+} from "./functions/GenioFuncional.js";
 
 let lista: InfoGenios = new Array<InfoGenio>();
 
