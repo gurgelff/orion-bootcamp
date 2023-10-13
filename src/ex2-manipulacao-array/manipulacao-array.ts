@@ -43,7 +43,7 @@ lista = [
   },
 ];
 
-const lista_copia: InfoGenios = [...lista];
+const lista_copia: InfoGenios = structuredClone(lista);
 
 const ID_NIKOLA_TESLA = 3;
 const ID_COPERNICO = 4;
