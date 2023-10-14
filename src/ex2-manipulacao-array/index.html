@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer type="module" src="manipulacao-array-web.js"></script>
+    <style> html { background: black; color: #CCC; } </style>
+    <title>Exercício 2 | Manipulação de Array usando Imperativo e Funcional</title>
+</head>
+
+<body>
+    <h1>Exercício 2 | Manipulação de Array</h1>
+    <label>Escolha seu Paradigma de Programação:</label>
+    <select id="dropdown-paradigma">
+        <option value="imperativo">Imperativo</option>
+        <option value="funcional">Funcional</option>
+    </select>
+    <h4>Modificar Gênio</h4>
+    <br /><br />
+    <label>Digite o ID do Gênio a ser alterado: </label>
+    <input id="input-genio-id" type="text" placeholder="3" />
+
+    <br /><br />
+    <label>Escolha o Campo(prop) a ser modificado</label>
+    <select id="prop">
+        <option value="name">Nome</option>
+        <option value="bio">Bio</option>
+        <option value="id">ID</option>
+    </select>
+
+    <br /><br />
+    <label>Digite o novo valor do campo</label>
+    <input id="novo-valor" type="text" />
+
+    <br /><br />
+    <label>Deletar o Gênio selecionado</label>
+    <input id="deletar-genio" type="checkbox" />
+
+
+    <form>
+        <input id="botao-manipular-array" type="submit" value="Executar" />
+    </form>
+    <br />
+    <h4>Buscar Gênio pelo id</h4>
+    <label>Digite o ID a ser buscado: </label>
+    <input id="buscar-genio" type="text" />
+    <form>
+        <input id="botao-buscar-genio" type="submit" value="Buscar" />
+    </form>
+    <div id="root-busca"></div>
+    <div id="root"></div>
+</body>
+
+</html>
